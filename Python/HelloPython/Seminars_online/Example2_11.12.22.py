@@ -10,9 +10,6 @@
 # d = int(input('Введите число 4: '))
 # e = int(input('Введите число 5: '))
 
-numbers = [1, 2, 3, 4]
-numbers[::-1]
-print(numbers)
 # max = -100000000
 # for i in numbers:       # перебор элементов списка
 #     if i > max:
