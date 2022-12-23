@@ -6,7 +6,7 @@ import random
 
 my_lst = []
 for i in range(5):
-    my_lst.append(random.randint(0, 100))
+    my_lst.append(random.randint(0, 10))
 print(f'случайный список: {my_lst}')
 
 for i in range(len(my_lst)-1, 0, -1):

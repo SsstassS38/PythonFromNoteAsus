@@ -13,10 +13,10 @@ for i in range(0, n):
     my_listRes.append(res)
 print(f'Последовательность для n={n}: {my_listRes}')
 res2 = sum(my_listRes)
-print(f'Сумма: {res2}')
+print(f'Сумма чисел последовательности: {res2}')
 
 
 # 2 вариант решения задачи (оптимизация кода).
 # n = int(input('Введите дробное число: '))
-# lst = [round((1+1/i)**i, 3) for i in range(1, n+1)]
+# lst = [round((1+1/i)**i, 3) for i in range(1, n+1)]     #  видимо генератор..
 # print(f'Последовательность: {lst}\nСумма: {round(sum(lst), 2)}')
