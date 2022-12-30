@@ -9,3 +9,7 @@ my_list = list(num)
 my_listNum = map(int, my_list)
 res = sum(my_listNum)
 print(res)
+
+
+# решение Стоуна
+
